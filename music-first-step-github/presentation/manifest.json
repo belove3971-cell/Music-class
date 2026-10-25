@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "format": "html",
+  "metadata": {
+    "title": "음악 시간 첫걸음 — 사고회로의 끊긴 곳을 잇는 도구",
+    "description": "중학교 1학년 음악 공통교육과정을 위한 진단·분석·교정 도구 중간보고",
+    "author": "성희원 / 교육공학 창의개발랩"
+  },
+  "canvas": { "width": 1920, "height": 1080 },
+  "playlist": [
+    "cover.html",
+    "pipeline.html",
+    "diagnose.html",
+    "analyze.html",
+    "correct.html",
+    "deepen.html",
+    "journey.html"
+  ],
+  "titles": {
+    "cover.html": "음악 수업의 병목은 어디서 생기는가",
+    "pipeline.html": "사고회로의 다섯 단계",
+    "diagnose.html": "둘째 단계를 먼저 진단합니다",
+    "analyze.html": "오답을 '틀린 규칙'의 흔적으로 읽습니다",
+    "correct.html": "틀리면 세 번 다시 붙잡습니다",
+    "deepen.html": "잘하는 영역은 깊게, 부족한 영역은 영상으로",
+    "journey.html": "진단에서 다시 진단까지 — 한계까지 정직하게"
+  }
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>둘째 단계를 먼저 진단합니다</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700;900&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; padding:0; overflow:hidden; }
+  .slide-container { position:relative; width:1920px; height:1080px; overflow:hidden;
+    font-family:'Noto Sans KR','Noto Sans',system-ui,sans-serif; background:#F1EFFA; }
+</style>
+</head>
+<body data-screen-label="03 Diagnose">
+<div class="slide-container">
+  <!-- eyebrow + marker -->
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:120px;top:80px;width:480px;z-index:10">
+    <div style="font-family:'Noto Sans KR';font-weight:500;font-size:24px;letter-spacing:0.22em;color:#0EAB95">3 / 7</div>
+  </div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:1740px;top:80px;width:120px;z-index:10">
+    <div style="font-family:'Noto Sans KR';font-weight:500;font-size:22px;letter-spacing:0.18em;color:rgba(23,20,51,0.45);text-align:right">03 / 07</div>
+  </div>
+
+  <!-- headline (one sentence) -->
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:120px;top:132px;width:1620px;z-index:10">
+    <!-- h: 2 lines x 90 = 180 -->
+    <div style="font-family:'Noto Serif KR';font-weight:700;font-size:72px;line-height:90px;color:#171433;letter-spacing:-0.01em">
+      둘째 단계부터 먼저 진단합니다 — <span style="color:#4A3AB8">악보를 소리로 바꾸는 힘</span>을 봅니다
+    </div>
+  </div>
+
+  <!-- subtitle -->
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:120px;top:336px;width:1620px;z-index:10">
+    <div style="font-family:'Noto Sans KR';font-weight:400;font-size:30px;line-height:44px;color:rgba(23,20,51,0.65)">
+      글자만 읽고 답하는 진단이 아닌 — 오선 악보를 함께 제시해 부호를 해독하는지 묻습니다.
+    </div>
+  </div>
+
+  <!-- theory chip row (compact) -->
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:120px;top:412px;width:300px;height:60px;background:#FFFFFF;border:2px solid rgba(74,58,184,0.18);border-radius:30px;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:120px;top:412px;width:300px;height:60px;z-index:10;display:flex;align-items:center;justify-content:center">
+    <div style="font-family:'Noto Sans KR';font-weight:500;font-size:22px;color:#2B1F78;text-align:center">힉의 법칙 · 즉시 분류</div>
+  </div>
+
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:436px;top:412px;width:300px;height:60px;background:#FFFFFF;border:2px solid rgba(74,58,184,0.18);border-radius:30px;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:436px;top:412px;width:300px;height:60px;z-index:10;display:flex;align-items:center;justify-content:center">
+    <div style="font-family:'Noto Sans KR';font-weight:500;font-size:22px;color:#2B1F78;text-align:center">도허티 임계 · 즉시 피드백</div>
+  </div>
+
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:752px;top:412px;width:300px;height:60px;background:#FFFFFF;border:2px solid rgba(74,58,184,0.18);border-radius:30px;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:752px;top:412px;width:300px;height:60px;z-index:10;display:flex;align-items:center;justify-content:center">
+    <div style="font-family:'Noto Sans KR';font-weight:500;font-size:22px;color:#2B1F78;text-align:center">포스텔의 법칙 · 건너뛰기 허용</div>
+  </div>
+
+  <!-- quiz.png right side frame -->
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:1248px;top:520px;width:540px;height:480px;background:#1A1247;border-radius:24px;z-index:3;box-shadow:0 20px 50px rgba(43,31,120,0.20)"></div>
+  <img data-object="true" data-object-type="image" src="../assets/quiz.png"
+       style="position:absolute;left:1268px;top:540px;width:500px;height:440px;border-radius:14px;object-fit:cover;object-position:center top;z-index:5"
+       alt="진단 화면">
+
+  <!-- small label on top of frame -->
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:1248px;top:520px;width:140px;height:40px;background:#FF5A35;border-radius:24px 0 0 0;z-index:6"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:1248px;top:520px;width:140px;height:40px;z-index:10;display:flex;align-items:center;justify-content:center">
+    <div style="font-family:'Noto Sans KR';font-weight:700;font-size:20px;color:#FFFFFF;letter-spacing:0.08em">실제 화면</div>
+  </div>
+  <!-- caption under image -->
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:1248px;top:1018px;width:540px;z-index:10">
+    <div style="font-family:'Noto Sans KR';font-weight:400;font-size:22px;line-height:32px;color:rgba(23,20,51,0.55)">
+      오선 악보를 그 자리에서 함께 제시해 글만 읽고 풀 수 없게 했다
+    </div>
+  </div>
+
+  <!-- 3 callouts on left, vertical list -->
+
+  <!-- 01 — 기초 문해력 -->
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:120px;top:520px;width:88px;height:88px;border-radius:44px;background:#2B1F78;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:120px;top:520px;width:88px;height:88px;z-index:10;display:flex;align-items:center;justify-content:center">
+    <div style="font-family:'Noto Serif KR';font-weight:900;font-size:36px;color:#FFFFFF">01</div>
+  </div>
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:228px;top:540px;width:56px;height:3px;background:#4A3AB8;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:228px;top:556px;width:980px;z-index:10">
+    <!-- h: 1 line x 46 = 46 -->
+    <div style="font-family:'Noto Sans KR';font-weight:700;font-size:30px;line-height:46px;color:#2B1F78">기초 문해력 3문항을 먼저 묻는다</div>
+  </div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:228px;top:604px;width:980px;z-index:10">
+    <!-- h: 1 line x 40 = 40 -->
+    <div style="font-family:'Noto Sans KR';font-weight:400;font-size:26px;line-height:40px;color:#171433">
+      높은음자리표·낮은음자리표 계이름, 박자표 읽기 — 종이 위에 그려진 악보를 함께 보여줍니다.
+    </div>
+  </div>
+
+  <!-- 02 — 7요소 × 5문항 -->
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:120px;top:680px;width:88px;height:88px;border-radius:44px;background:#2B1F78;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:120px;top:680px;width:88px;height:88px;z-index:10;display:flex;align-items:center;justify-content:center">
+    <div style="font-family:'Noto Serif KR';font-weight:900;font-size:36px;color:#FFFFFF">02</div>
+  </div>
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:228px;top:700px;width:56px;height:3px;background:#4A3AB8;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:228px;top:716px;width:980px;z-index:10">
+    <div style="font-family:'Noto Sans KR';font-weight:700;font-size:30px;line-height:46px;color:#2B1F78">7요소 × 5문항, 점수는 100·50·0</div>
+  </div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:228px;top:764px;width:980px;z-index:10">
+    <!-- h: 2 lines x 40 = 80 -->
+    <div style="font-family:'Noto Sans KR';font-weight:400;font-size:26px;line-height:40px;color:#171433">
+      리듬·가락·화성·형식·셈여림·빠르기·음색. 기본 정답 100, 기초 정답 50, 둘 다 오답 0, 건너뛰면 '미확인'.
+    </div>
+  </div>
+
+  <!-- 03 — 적응형 — coral circle -->
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:120px;top:892px;width:88px;height:88px;border-radius:44px;background:#FF5A35;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:120px;top:892px;width:88px;height:88px;z-index:10;display:flex;align-items:center;justify-content:center">
+    <div style="font-family:'Noto Serif KR';font-weight:900;font-size:36px;color:#FFFFFF">03</div>
+  </div>
+  <div data-object="true" data-object-type="shape" style="position:absolute;left:228px;top:912px;width:56px;height:3px;background:#FF5A35;z-index:3"></div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:228px;top:928px;width:980px;z-index:10">
+    <div style="font-family:'Noto Sans KR';font-weight:700;font-size:30px;line-height:46px;color:#2B1F78">'중' 정답이면 통과, 막히면 '하' 1문항 추가</div>
+  </div>
+  <div data-object="true" data-object-type="textbox" style="position:absolute;left:228px;top:976px;width:980px;z-index:10">
+    <!-- h: 1 x 40 = 40 -->
+    <div style="font-family:'Noto Sans KR';font-weight:400;font-size:26px;line-height:40px;color:#171433">
+      7요소를 10~17문항 안에서 끝내고, 시간은 평균 약 3분입니다.
+    </div>
+  </div>
+</div>
+</body>
+</html>
