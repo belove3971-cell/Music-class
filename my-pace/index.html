@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MY PACE</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="AI가 답을 대신 주지 않고 질문으로 자기조절학습을 돕는 학습 앱">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="shell" id="app" aria-live="polite"></main>
+<nav class="tabbar" aria-label="주 메뉴"><div class="in">
+  <a href="#today" data-tab="today"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>오늘</a>
+  <a href="#learn" data-tab="learn"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>학습</a>
+  <a href="#growth" data-tab="growth"><svg viewBox="0 0 24 24"><path d="M4 19h16M6 16l4-5 3 3 5-7"/></svg>성장</a>
+  <a href="#me" data-tab="me"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>나</a>
+</div></nav>
+<script src="coach.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
